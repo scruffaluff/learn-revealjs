@@ -8,6 +8,6 @@
   "private": true,
   "scripts": {
     "print": "decktape reveal src/index.html dist/index.pdf",
-    "serve": "live-server src/index.html"
+    "serve": "live-server src"
   }
 }
