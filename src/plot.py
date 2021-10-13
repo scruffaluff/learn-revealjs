@@ -17,7 +17,7 @@ figure = plotting.figure(
     y_axis_label="amplitube",
     sizing_mode="scale_height",
 )
-figure.line(x, y, line_width=2)
+figure.line(x, y, line_width=1)
 
 output = Path(__file__).parent / "line_plot.json"
 with open(output, "w") as fd:
