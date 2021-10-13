@@ -1,5 +1,13 @@
 {
-  "devDependencies": {},
+  "devDependencies": {
+    "decktape": "^3.2.0",
+    "live-server": "^1.2.1",
+    "puppeteer": "^10.4.0",
+    "reveal": "^0.0.4"
+  },
   "private": true,
-  "scripts" {}
+  "scripts": {
+    "print": "decktape reveal src/index.html dist/index.pdf",
+    "serve": "live-server src/index.html"
+  }
 }
